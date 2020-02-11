@@ -199,7 +199,8 @@ def user_stats(df):
     print('-'*40)
 
     
-def display_data(df):    
+def display_data(df):
+    """Displays five raw stats at a time"""    
     count = 0
     user_input = input('\nDo you want to see 5 lines of raw data? Enter yes or no.\n').lower() 
     while True :
@@ -222,7 +223,6 @@ def main():
         user_stats(df)
         
         display_data(df)
-
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
