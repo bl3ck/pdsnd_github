@@ -1,5 +1,4 @@
 ### Date created
-Include the date you created this project and README file.
 11-02-2019
 
 ### Project Title
@@ -14,4 +13,7 @@ Using Python to explore data related to bike share systems for three major citie
 * washington.csv
 
 ### Credits
-Udacity course lectures
+Udacity course lectures,
+
+### Appriciation
+Thanks to AAL
