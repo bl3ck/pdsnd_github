@@ -200,6 +200,7 @@ def user_stats(df):
 
     
 def display_data(df):    
+    """Displays five raw stats at a time, displaying 5 each time and requesting user if they want to view more"""    
     count = 0
     user_input = input('\nDo you want to see 5 lines of raw data? Enter yes or no.\n').lower() 
     while True :
