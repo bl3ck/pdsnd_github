@@ -211,6 +211,7 @@ def display_data(df):
             break
 
 def main():
+    """Defines overall run of my bikeshare program"""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
